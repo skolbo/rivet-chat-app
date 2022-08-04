@@ -1,3 +1,4 @@
+const path = require('path');
 const express = require("express");
 const cors = require("cors");
 const authRoutes = require("./routes/auth");
@@ -8,6 +9,8 @@ require("dotenv").config();
 
 app.use(cors());
 app.use(express.json());
+const publicPath = path.join(__dirname, '..', 'public/build');
+app.use(express.static(publicPath));
 
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
