@@ -9,11 +9,15 @@ require("dotenv").config();
 
 app.use(cors());
 app.use(express.json());
-const publicPath = path.join(__dirname, '..', 'public/build');
+const publicPath = path.join(__dirname, 'build');
 app.use(express.static(publicPath));
+
 
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
+app.get('/*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
 
 const server = app.listen(process.env.PORT, () =>
   console.log(`Server started on ${process.env.PORT}`)
