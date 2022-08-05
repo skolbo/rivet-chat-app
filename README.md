@@ -13,7 +13,7 @@ In case of a future apocalypse, or just loneliness, there will be a dire need to
 ## Usage 
 
 ## Languages 
-* Mongo - User account and message storage (Work in progress)
+* Mongo - User account and message storage
 * Express - Server applicant framework
 * React - Front end UI framework
 * Node - Server functionality 
