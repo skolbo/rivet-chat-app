@@ -2,6 +2,7 @@ const path = require('path');
 const express = require("express");
 const cors = require("cors");
 const mongoose = require('mongoose');
+const userRoutes = require('./routes/userRoutes');
 const authRoutes = require("./routes/auth");
 const messageRoutes = require("./routes/messages");
 const app = express();
@@ -13,7 +14,7 @@ app.use(express.json());
 const publicPath = path.join(__dirname, 'build');
 app.use(express.static(publicPath));
 
-
+app.use('/api/auth', userRoutes);
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
 app.get('/*', (req, res) => {

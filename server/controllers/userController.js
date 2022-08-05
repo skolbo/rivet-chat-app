@@ -1,10 +1,16 @@
-
+const User = require('../model/userModel');
+const bcrypt = require('bcrypt');
 const users = 
   [{ _id: 1, username: 'Stephen', password : 'letmein'}, 
    { _id: 2, username: 'Jason', password: 'letmein'},
    { _id: 3, username: "Zkiah", password: 'letmein'},
    { _id: 4, username: 'Farhan', password: 'letmein'}
   ]
+
+module.exports.signup = async (req, res, next) => {
+  const {username, email, password} = req.body;
+  const usernameUnique = await User.findOne({ username });
+};
 
 module.exports.login = async (req, res, next) => {
   try {
