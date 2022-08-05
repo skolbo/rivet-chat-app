@@ -1,6 +1,7 @@
 const path = require('path');
 const express = require("express");
 const cors = require("cors");
+const mongoose = require('mongoose');
 const authRoutes = require("./routes/auth");
 const messageRoutes = require("./routes/messages");
 const app = express();
@@ -17,6 +18,15 @@ app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
 app.get('/*', (req, res) => {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
+
+mongoose.connect(process.env.MONGO_URL, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+}).then(() => {
+  console.log('DB Connected!');
+}).catch((err) => {
+  console.log(err.message);
 });
 
 const server = app.listen(process.env.PORT, () =>
