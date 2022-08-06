@@ -1,4 +1,4 @@
-# Rivet Chat app - Server
+# Rivet Chat app
 
 ## Description 
 In case of a future apocalypse, or just loneliness, there will be a dire need to stay connected through a digital platform. Rivet is a real-time chatting application to stay connected with friends, family, and co-workers with competitive features and pricing. We solved this problem by building an chat app that utilizes socket.io to create real time connections with a cool, retro, frog centered theme.
@@ -10,20 +10,22 @@ In case of a future apocalypse, or just loneliness, there will be a dire need to
 
 # Table of Contents
 
-[RIVET APP](#rivet-chat-app---server)
-[Description](#description)
-[Demo/Mockup](#demomockup)
-[Table of Contents](#table-of-contents)
-[Usage](#usage)
-[Languages](#languages)
-[Installation](#installation)
-[Credits](#credits)
-[License](#license)
-[Badges](#badges)
+- [RIVET APP](#rivet-chat-app---server)
+- [Description](#description)
+- [Demo/Mockup](#demomockup)
+- [Table of Contents](#table-of-contents)
+- [Usage](#usage)
+- [Languages](#languages)
+- [Installation](#installation)
+- [Credits](#credits)
+- [License](#license)
+- [Badges](#badges)
 
 ## Usage 
 
+~~~
 Our latest version of a chatting app, we have focused on what the people needs to what they may want. Rivet allows you to communicate with users across the world, focusing on socilazation and bringing communities closer together. 
+~~~
 
 ## Languages 
 * Mongo - User account and message storage
@@ -37,10 +39,10 @@ Our latest version of a chatting app, we have focused on what the people needs t
 VSCode
 
 ## Credits 
-[Farhan's Github](https://github.com/fheezy)
-[Jason's Github](https://github.com/JasonKim0122)
-[Stephen's Github](https://github.com/skolbo)
-[Z'Kiah's Github](https://github.com/zdSMU22)
+- [Farhan's Github](https://github.com/fheezy)
+- [Jason's Github](https://github.com/JasonKim0122)
+- [Stephen's Github](https://github.com/skolbo)
+- [Z'Kiah's Github](https://github.com/zdSMU22)
 
 ## License 
 
