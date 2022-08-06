@@ -10,7 +10,7 @@ In case of a future apocalypse, or just loneliness, there will be a dire need to
 
 # Table of Contents
 
-- [RIVET APP](#rivet-chat-app---server)
+- [Rivet Chat app](#rivet-chat-app---server)
 - [Description](#description)
 - [Demo/Mockup](#demomockup)
 - [Table of Contents](#table-of-contents)
@@ -19,12 +19,13 @@ In case of a future apocalypse, or just loneliness, there will be a dire need to
 - [Installation](#installation)
 - [Credits](#credits)
 - [License](#license)
-- [Badges](#badges)
 
 ## Usage 
 
 ~~~
-Our latest version of a chatting app, we have focused on what the people needs to what they may want. Rivet allows you to communicate with users across the world, focusing on socilazation and bringing communities closer together. 
+Our latest version of a chatting app, we have focused on what the people needs to what they may want. 
+Rivet allows you to communicate with users across the world, 
+focusing on socilazation and bringing communities closer together. 
 ~~~
 
 ## Languages 
