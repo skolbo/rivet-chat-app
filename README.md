@@ -10,7 +10,20 @@ In case of a future apocalypse, or just loneliness, there will be a dire need to
 
 # Table of Contents
 
+[RIVET APP](#rivet-chat-app---server)
+[Description](#description)
+[Demo/Mockup](#demomockup)
+[Table of Contents](#table-of-contents)
+[Usage](#usage)
+[Languages](#languages)
+[Installation](#installation)
+[Credits](#credits)
+[License](#license)
+[Badges](#badges)
+
 ## Usage 
+
+Our latest version of a chatting app, we have focused on what the people needs to what they may want. Rivet allows you to communicate with users across the world, focusing on socilazation and bringing communities closer together. 
 
 ## Languages 
 * Mongo - User account and message storage
@@ -19,10 +32,17 @@ In case of a future apocalypse, or just loneliness, there will be a dire need to
 * Node - Server functionality 
 * Socket.IO - Real time message communication channel
 
-## Dependices/Installaments 
+## Installation
+
+VSCode
 
 ## Credits 
+[Farhan's Github](https://github.com/fheezy)
+[Jason's Github](https://github.com/JasonKim0122)
+[Stephen's Github](https://github.com/skolbo)
+[Z'Kiah's Github](https://github.com/zdSMU22)
 
 ## License 
 
-## Badges
+![MIT](https://img.shields.io/badge/License-MIT-blue)
+
